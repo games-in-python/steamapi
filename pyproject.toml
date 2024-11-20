@@ -1,0 +1,24 @@
+# Based on https://packaging.python.org/en/latest/tutorials/packaging-projects/
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "steamapi"
+version = "0.0.1"
+authors = [
+  { name="Tom Rothamel", email="pytom@bishoujo.us" },
+  { name="Jamie Bliss", email="jamie@ivyleav.es" }
+]
+description = "Python bindings to steam overlay etc"
+readme = "README.md"
+requires-python = ">=3.8"
+# https://pypi.org/classifiers/
+classifiers = [
+    "Programming Language :: Python :: 3",
+    # "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/games-in-python/steamapi"
