@@ -15448,4 +15448,3 @@ def get_api_call_result(call, callback_type):
         raise APIFailure(call)
 
     return result
-
